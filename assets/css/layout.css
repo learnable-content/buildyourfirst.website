@@ -11,13 +11,13 @@ layout
 
 /* row-colors */
 .row--white { background: #fff; }
-.row--grey { background: #F8F8F8; }
-.row--blue { background: #3BB2D0; }
+.row--grey { background: #f8f8f8; }
+.row--blue { background: #3bb2d0; }
 
-.row--dark
+.row--dark-grey
 {
 	color: #fff;
-	background: #282E37;
+	background: #282e37;
 }
 
 /* row-padding */
@@ -36,18 +36,18 @@ layout
 }
 
 /* containers */
-.container-wide,
+.container-narrow,
 .container-medium,
-.container-narrow
+.container-wide
 {
 	margin: 0 auto;
 	padding-left: 1.5em;
 	padding-right: 1.5em;
 }
 
-.container-wide { max-width: 58em; }
-.container-medium { max-width: 52em; }
 .container-narrow { max-width: 34em; }
+.container-medium { max-width: 52em; }
+.container-wide { max-width: 58em; }
 
 /* columns */
 .col-narrow,
@@ -61,33 +61,35 @@ wide
 {
 	.row--padding-medium
 	{
-		padding-top: 3.88888888888889em;
-		padding-bottom: 3.88888888888889em;
+		padding-top: 3.8889em;
+		padding-bottom: 3.8889em;
 		/* 70px/18px */
 	}
 	
 	.row--padding-wide
 	{
-		padding-top: 5.55555555555556em;
-		padding-bottom: 5.55555555555556em;
+		padding-top: 5.5556em;
+		padding-bottom: 5.5556em;
 		/* 100px/18px */
 	}
 	
-	.container-wide,
+	.container-narrow,
 	.container-medium,
-	.container-narrow
+	.container-wide
 	{
 		padding-left: 2em;
 		padding-right: 2em;
 	}
 	
-	.col-medium,
 	.col-narrow,
+	.col-medium,
 	.col-wide { float: left; }
-	.col-wide--right,
-	.col-narrow--right { float: right; }
+	.col-narrow--right,
+	.col-wide--right { float: right; }
+	
 	.col-wide,
 	.col-wide--right { width: 61%; }
+	
 	.col-medium { width: 50%; }
 	
 	.col-narrow,
