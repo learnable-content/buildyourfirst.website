@@ -85,7 +85,7 @@ header
 		padding: 2.2222em 2em;
 		/* 40px/18px - 36px/18px */
 	}
-	
+
 	.header__nav { width: 12em; }
 
 	.header__nav a
@@ -183,7 +183,7 @@ features
 		margin-bottom: 4.1667em;
 		/* 75px/18px */
 	}
-	
+
 	.features__row:last-child { margin: 0; }
 
 	.features__padding
@@ -191,7 +191,7 @@ features
 		padding-top: 4em;
 		/* 72px/18px */
 	}
-	
+
 	.features__heading
 	{
 		font-size: 1.5556em;
@@ -350,8 +350,8 @@ press
 		font-weight: normal;
 	}
 
-	.press__logos 
-	{ 
+	.press__logos
+	{
 		float: left;
 		margin: 0 7.2% 0 0;
 	}
@@ -359,7 +359,7 @@ press
 	.press__logos--solvable { width: 17.88%; }
 	.press__logos--nc { width: 8.65%; }
 	.press__logos--waratah { width: 32.78%; }
-	
+
 	.press__logos--bevel
 	{
 		width: 18.84%;
